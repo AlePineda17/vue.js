@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>VueJS Tutorial</title>
+        <link href="vue-js2.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+
+    <body>
+        <h1>Multiple Vue instances</h1>
+        <div id="vue-app-one">
+            <h4>{{ title }}</h4>
+            <p>{{ greet }}</p>
+        </div>    
+
+        <div id="vue-app-two">
+            <h4>{{ title }}</h4>
+            <p>{{ greet }}</p>
+            <button v-on:click="changeTitle">Change app one title</button>
+        </div>
+
+        <h2>Components</h2>
+        <div id="vue-app">
+            <greeting></greeting>
+        </div>
+
+        <script src="vue-js2.js"></script>
+    </body>
+</html>
