@@ -1,5 +1,5 @@
 <template>
-  <v-app class="grey lighten-4">
+  <v-app class="green lighten-4">
     <Navbar />
     <v-content>
       <router-view></router-view>
@@ -18,3 +18,6 @@ export default {
   }),
 };
 </script>
+
+<style>
+</style>
